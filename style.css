@@ -1,0 +1,37 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.container {
+    margin: 80px;
+}
+
+caption {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.table-border {
+    width: 550px;
+    height: 300px;
+    border-collapse: collapse;
+    border: 3px solid blue;
+}
+
+.head-border {
+    border: 3px solid blue;
+}
+
+table,
+th,
+td {
+    border: 2px solid blue; 
+}
+
+td {
+    text-align: center;
+}
+.table-data {
+    font-size: 14px;
+}

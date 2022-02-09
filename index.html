@@ -4,25 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Table</title>
 </head>
 <body>
 
     <div class="container">
 
-        <caption></caption>
+        <table class="table-border">
+            <caption>Информация о столицах</caption>
+            
+            <thead class="head-border">
+                <tr>
+                    <th rowspan="2">Страна</th>
+                    <th rowspan="2">Столица</th>
+                    <th colspan="2">Информация</th>
+                    <th rowspan="2">Примечание</th>
+                </tr>
+                <tr>
+                    <th class="table-data">Население</th>
+                    <th class="table-data">Площадь</th>
+                </tr>
+            </thead>
 
-        <thead>
-            <th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </th>
-
-        </thead>
-    </div>
+            <tbody>
+                <tr>
+                    <td>Британия</td>
+                    <td>Лондон</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>США</td>
+                    <td>Вашингтон</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Нидерланды</td>
+                    <td>Амстердам</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Гаага</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Украина</td>
+                    <td>Киев</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
     
+        </table>
+    </div>
 </body>
 </html>
